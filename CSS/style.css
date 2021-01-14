@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif; /*класс шрифта*/
+    font-size: 14px;/*размер шрифта*/
+    color: #260909;/*цвет шрифта*/
+    line-height: 1.6;/*межстрочный интервал*/
+}
+.title{
+    text-align: center;/*выравнивание по центру*/
+    letter-spacing: 4px;/*расстояние между буквами*/
+    text-decoration: line-through;/*подчеркивание*/
+    text-transform: uppercase;/*все буквы заглавные*/
+}
+.justify{
+    text-align: justify;/*выравнивание по ширине*/
+    font-weight: 700;/*жирный текст*/
+    font-style: italic;
+}
+p{
+    text-indent: 20px;/*отступ, красная строка*/
+}
+ul{
+    list-style-type: square;/*меняет форму пунктов*/
+    list-style-position: inside;/*вносит сам пунктик*/
+}
+ol{
+    list-style-type: decimal-leading-zero;/*нумерация списка с нуля*/
+}
+h1{
+    text-align: center;
+}
+.tab{
+    border: 1px solid #000;
+    width: 90%;
+    border-collapse: collapse;
+}
+.tab td {
+    border: 1px solid #000;
+    padding: 5px;
+}
