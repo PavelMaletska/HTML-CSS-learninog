@@ -10,6 +10,9 @@ body {
     text-decoration: line-through;/*подчеркивание*/
     text-transform: uppercase;/*все буквы заглавные*/
 }
+.footer{
+    text-align: center;
+}
 .justify{
     text-align: justify;/*выравнивание по ширине*/
     font-weight: 700;/*жирный текст*/
@@ -36,4 +39,15 @@ h1{
 .tab td {
     border: 1px solid #000;
     padding: 5px;
+}
+.text-red{
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+    display: inline-block; /* display: block; делает строчный элемент блочным*/
+    margin: 12px 5px 6px 23px ;
+}
+.content{
+    margin-left: 30px;
+    padding: 15px 10px 5px 12px;
 }
